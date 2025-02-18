@@ -82,17 +82,18 @@ This project implements a stock screener based on the investment philosophy and 
 
 ## Create a virtual environment (optional but recommended):
 
-bash
-Copy
-python -m venv venv
-source venv/bin/activate  # On Windows, use: venv\Scripts\activate
+   ```bash
+   Copy
+   python -m venv venv
+   source venv/bin/activate  # On Windows, use: venv\Scripts\activate
 
 ## Install the required packages:
 
-bash
-Copy
-pip install -r requirements.txt
-Example requirements.txt:
+   ```bash
+   Copy
+   pip install -r requirements.txt
+
+## Example requirements.txt:
 
 nginx
 Copy
@@ -113,9 +114,9 @@ Usage
 
 ## To run the full stock screener:
 
-bash
-Copy
-python stock_screener.py
+   ```bash
+   Copy
+   python stock_screener.py
 
 ## This will:
 
@@ -127,9 +128,10 @@ Save the recommended stocks (qualifiers) to a timestamped file in the results fo
 ## Test Email Mode
 To test the email functionality without running the full screening process:
 
-bash
-Copy
-python stock_screener.py --test-email
+   ```bash
+   Copy
+   python stock_screener.py --test-email
+
 This sends a test email using dummy stock data. Make sure to update the email placeholder in the code (e.g., "your_email@gmail.com") with your actual email address if you intend to send real emails.
 
 ## License
