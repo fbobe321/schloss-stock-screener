@@ -1,0 +1,7 @@
+yfinance
+pandas
+yahoo_fin
+google-auth-oauthlib
+google-auth
+requests
+
