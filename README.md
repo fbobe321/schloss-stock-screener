@@ -74,26 +74,26 @@ This project implements a stock screener based on the investment philosophy and 
 
 ## Installation
 
-1. **Clone the repository:**
+**Clone the repository:**
 
    ```bash
    git clone https://github.com/your_username/schloss-stock-screener.git
    cd schloss-stock-screener
 
-## Create a virtual environment (optional but recommended):
+**Create a virtual environment (optional but recommended):**
 
    ```bash
    Copy
    python -m venv venv
    source venv/bin/activate  # On Windows, use: venv\Scripts\activate
 
-## Install the required packages:
+**Install the required packages:**
 
    ```bash
    Copy
    pip install -r requirements.txt
 
-## Example requirements.txt:
+** Example requirements.txt: **
 
 nginx
 Copy
@@ -104,7 +104,7 @@ google-auth-oauthlib
 google-auth
 requests
 
-## Obtain Gmail OAuth2 Credentials:
+** Obtain Gmail OAuth2 Credentials: **
 
 Create a project in the Google Cloud Console.
 Enable the Gmail API.
@@ -112,20 +112,20 @@ Create OAuth 2.0 credentials for a Desktop App.
 Download the client_secret.json file and place it in the root of the repository.
 Usage
 
-## To run the full stock screener:
+** To run the full stock screener: **
 
    ```bash
    Copy
    python stock_screener.py
 
-## This will:
+** This will: **
 
 Load or generate a list of U.S. stock tickers.
 Process each ticker based on the criteria.
 Append a log of all stocks processed to all_stocks_results.txt.
 Save the recommended stocks (qualifiers) to a timestamped file in the results folder (keeping only the latest 7 runs).
 
-## Test Email Mode
+** Test Email Mode **
 To test the email functionality without running the full screening process:
 
    ```bash
@@ -134,5 +134,5 @@ To test the email functionality without running the full screening process:
 
 This sends a test email using dummy stock data. Make sure to update the email placeholder in the code (e.g., "your_email@gmail.com") with your actual email address if you intend to send real emails.
 
-## License
+** License **
 This project is licensed under the MIT License. See the LICENSE file for details.
