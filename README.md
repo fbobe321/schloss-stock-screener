@@ -141,3 +141,6 @@ This sends a test email using dummy stock data. Make sure to update the email pl
 **License**
 This project is licensed under the MIT License. See the LICENSE file for details.
 
+## Disclaimer
+
+This project is provided for educational purposes only. The author is not responsible for any financial losses or damages resulting from the use of this software. Always conduct your own research and consider seeking professional financial advice before making any investment decisions.
